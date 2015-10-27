@@ -1,22 +1,20 @@
 {
- "manifest_version": 1,
+	"manifest_version": 1,
+	"name": "Trend Happy",
+	"description": "Chrome extension that hides depressing stories from Facebook's Trending section",
+	"version": "1.0",
 
- "name": "Trend Happy",
- "description": "Chrome extension that hides depressing stories from Facebook's Trending section",
- "version": "1.0",
-
- "content_scripts": [
- {
-  "matches": [
-  	"http://facebook.com/*", "https://facebook.com/*", "http://*.facebook.com/", "https://*.facebook.com/"
-  ],
-  "js": [
-  	"jquery.js", "trendhappy.js"
-  ]
- }
-  ],
-
-"permissions": [
-	"http://facebook.com/*", "https://facebook.com/*", "http://*.facebook.com/", "https://*.facebook.com/"
- ]
+	"content_scripts": [
+ 		{
+  			"matches": [
+  				"http://facebook.com/*", "https://facebook.com/*", "http://*.facebook.com/", "https://*.facebook.com/"
+  			],
+ 		 	"js": [
+  				"jquery.js", "trendhappy.js"
+  			]
+ 		}
+	],
+	"permissions": [
+		"http://facebook.com/*", "https://facebook.com/*", "http://*.facebook.com/", "https://*.facebook.com/"
+ 	]
 }
