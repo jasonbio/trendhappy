@@ -7,7 +7,7 @@
 	"content_scripts": [
  		{
   			"matches": [
-  				"http://facebook.com/*", "https://facebook.com/*", "http://*.facebook.com/*", "https://*.facebook.com/*"
+  				"http://facebook.com/*", "https://facebook.com/*", "http://*.facebook.com/*", "https://*.facebook.com/*", "http://www.facebook.com/*", "http://www.facebook.com/", "https://www.facebook.com/*", "https://www.facebook.com/"
   			],
  		 	"js": [
   				"jquery-1.11.3.min.js", "trendhappy.js"
@@ -15,6 +15,6 @@
  		}
 	],
 	"permissions": [
-		"http://facebook.com/*", "https://facebook.com/*", "http://*.facebook.com/*", "https://*.facebook.com/*"
+		"http://facebook.com/*", "https://facebook.com/*", "http://*.facebook.com/*", "https://*.facebook.com/*", "http://www.facebook.com/*", "http://www.facebook.com/", "https://www.facebook.com/*", "https://www.facebook.com/"
  	]
 }
