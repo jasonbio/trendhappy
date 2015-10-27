@@ -1,5 +1,5 @@
 {
-	"manifest_version": 1,
+	"manifest_version": 2,
 	"name": "Trend Happy",
 	"description": "Chrome extension that hides depressing stories from Facebook's Trending section",
 	"version": "1.0",
